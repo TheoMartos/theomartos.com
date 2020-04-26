@@ -1,26 +1,22 @@
 <template>
-
+  <section class="container mt-4">
+    <p>
+      Hi! I am a {{ age }} years old engineering student studing at <a href="https://esirem.u-bourgogne.fr">ESIREM</a>,
+      Dijon, France. I am specialized
+    </p>
+  </section>
 </template>
 
 <script>
-  import Header from '~/components/Header.vue'
-
   export default {
-    components: {
-      Header
+    computed: {
+      age: () => {
+        const birthday = new Date('November 7, 1998');
+        const diff = new Date(Date.now() - birthday);
+
+        return diff.getUTCFullYear() - 1970;
+      }
     }
   }
 
 </script>
-
-<style>
-  /* .title {
-    font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-      'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    display: block;
-    font-weight: 300;
-    font-size: 100px;
-    color: #35495e;
-    letter-spacing: 1px;
-  } */
-</style>

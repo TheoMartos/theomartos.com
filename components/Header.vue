@@ -1,8 +1,8 @@
 <template>
   <div id="header" class="pt-4 row">
     <div class="mx-auto text-center">
-      <a href="/"><b-img src="imgs/pp.png" alt="Profile picture" rounded="circle" height="200px" class="mb-2"></b-img></a>
-      <h1>Théo Martos</h1>
+      <a href="/"><b-img src="imgs/pp.png" alt="Profile picture" rounded="circle" height="150px" class="mb-2"></b-img></a>
+      <h2>Théo Martos</h2>
     </div>
     <navigation-bar />
   </div>
@@ -21,11 +21,10 @@
 
 <style>
   #header {
-    /* color: #35495e; */
-    background-color: #343a40;
+    background-color: #51555a;
   }
 
-  #header div h1 {
+  #header div h2 {
     color: white;
   }
 </style>

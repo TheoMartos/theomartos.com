@@ -1,6 +1,6 @@
 <template>
   <div>
-      
+
   </div>
 </template>
 
@@ -8,7 +8,6 @@
   import Header from '~/components/Header.vue'
 
   export default {
-
+      
   }
-
 </script>
