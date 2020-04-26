@@ -1,0 +1,27 @@
+<template>
+  <b-navbar id="nav-bar" type="dark" variant="dark">
+    <b-navbar-nav align="center">
+      <navigation-item title="About" href="/" active />
+      <navigation-item title="Schooling" href="/schooling" />
+      <navigation-item title="Projects" href="/projects" />
+      <navigation-item title="Social Media" href="/socials" />
+    </b-navbar-nav>
+  </b-navbar>
+</template>
+
+<script>
+  import NavigationItem from './NavigationItem.vue';
+
+  export default {
+    name: 'NavigationBar',
+    components: {
+      NavigationItem
+    }
+  }
+</script>
+
+<style>
+#nav-bar {
+  width: 100%;
+}
+</style>
