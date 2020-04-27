@@ -1,9 +1,6 @@
 <template>
-  <section class="container mt-4">
-    <p>
-      Hi! I am a {{ age }} years old engineering student studing at <a href="https://esirem.u-bourgogne.fr">ESIREM</a>,
-      Dijon, France.
-    </p>
+  <section class="container">
+
   </section>
 </template>
 

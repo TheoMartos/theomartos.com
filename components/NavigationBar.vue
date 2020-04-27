@@ -4,7 +4,7 @@
       <navigation-item title="About" href="/" active />
       <navigation-item title="Schooling" href="/schooling" />
       <navigation-item title="Projects" href="/projects" />
-      <navigation-item title="Social Media" href="/socials" />
+      <navigation-item title="Social Medias" href="/socials" />
       <navigation-item title="Contact" href="/contact" />
     </b-navbar-nav>
   </b-navbar>

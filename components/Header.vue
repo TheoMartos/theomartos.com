@@ -2,7 +2,6 @@
   <div id="header" class="pt-4 mb-4 row">
     <div class="mx-auto text-center">
       <a href="/"><b-img src="imgs/pp.png" alt="Profile picture" rounded="circle" height="150px" class="mb-2"></b-img></a>
-      <!-- <a href="/"><b-avatar variant="light" src="imgs/pp.png" size="150px"></b-avatar></a> -->
       <h2>Théo Martos</h2>
     </div>
     <navigation-bar />
