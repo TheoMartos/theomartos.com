@@ -20,7 +20,9 @@
 
 <style>
   #header {
-    background-color: #51555a;
+    /* background-color: #51555a; */
+    background: rgb(81,85,90);
+    background: linear-gradient(90deg, rgba(81,85,90,1) 15%, rgba(154,154,154,1) 50%, rgba(81,85,90,1) 85%); 
   }
 
   #header div h2 {

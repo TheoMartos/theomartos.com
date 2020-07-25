@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <b-container>
     <h4 class="text-center">Contact me</h4>
     <b-form @submit="onSubmit">
       <b-form-group id="email-input-group" label="Email address:" label-for="email-email-input">
@@ -8,12 +8,12 @@
       </b-form-group>
 
       <b-form-group id="message-input-group" label="Enter your message:" label-for="message-email-input">
-        <b-form-textarea id="textarea" v-model="form.message" placeholder="2000 caracters max" rows="7" @keyup="checkMessageLength" required>
+        <b-form-textarea id="message-email-input" v-model="form.message" placeholder="2000 caracters max" rows="7" @keyup="checkMessageLength" required>
         </b-form-textarea>
       </b-form-group>
-      <b-button type="submit" block variant="outline-secondary">Submit</b-button>
+      <b-button type="submit" block variant="secondary">Submit</b-button>
     </b-form>
-  </div>
+  </b-container>
 </template>
 
 <script>
